@@ -1,7 +1,7 @@
 # HR-Analytics
 This machine learnign classificaiton notebook aims to predict whether a candidate is looking for a job change (target = 1) based on various attributes from the HR dataset.
 
-Steps Performed in the Notebook:
+##Steps Performed in the Notebook:
 
 Importing Necessary Libraries:
 
