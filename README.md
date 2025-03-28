@@ -37,13 +37,13 @@ Steps I took were the following:
 - Applying SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
 
 8.Model Training and Evaluation:
-- Training a RandomForestClassifier.
-- Using train_test_split() to split data into training and testing sets.
+- Training a Random Forest Classifier, Logistic Regression,Gaussian Naive Bayes,K Nearest Neighbors Classifier,Decision Tree Classifier,Support Vector Classifier, Gradient Boosting Classifier, XG Boosting Classifier. 
+-  Using train_test_split() to split data into training and testing sets.
 - Applying StratifiedKFold() and RandomizedSearchCV() for hyperparameter tuning.
-- Evaluating model performance using accuracy_score and classification_report.
+- Evaluating model performance using accuracy_score and classification_report --> found RandomForrest to be best model with minimal overfitting and the most contirbuting features are: city_development_index,training_hours,experience.
 
 9.Generating Visualizations:
-- Using Seaborn, Matplotlib, and Plotly to create distribution plots, bar charts, pivot tables, pairplots, treamaps, sunburst, pointplot,histogram, joinplot,catplot,etc.
+- Using Seaborn, Matplotlib, and Plotly to create distribution plots, bar charts, pivot tables, pairplots, treamaps, sunburst, pointplot,histogram, joinplot,catplot, piechart, subplot,bubblechart etc.
 
 
 
