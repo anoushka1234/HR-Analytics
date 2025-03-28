@@ -43,7 +43,7 @@ Steps I took were the following:
 - Evaluating model performance using accuracy_score and classification_report.
 
 9.Generating Visualizations:
-- Using Seaborn, Matplotlib, and Plotly to create distribution plots, bar charts, pivot tables, etc.
+- Using Seaborn, Matplotlib, and Plotly to create distribution plots, bar charts, pivot tables, pairplots, treamaps, sunburst, pointplot,histogram, joinplot,catplot,etc.
 
 
 
