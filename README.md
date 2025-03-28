@@ -19,6 +19,7 @@ Steps I took were the following:
 - Creating bar plots to check frequency distribution of categorical features with respect to the target variable.
 - Generating pivot tables to examine relationships between features like education level, experience, gender, company type, and training hours.
 - Visualizing data distribution using sns.distplot() for training_hours.
+- Treated missed typos and cleaned the outliers of the dataset for better analysis
 
 4.Handling Missing Values:
 - Replacing missing gender values with 'Male' (based on predominant category).
@@ -27,7 +28,7 @@ Steps I took were the following:
 - Various other handling strategies applied for missing data.
 
 5.Encoding Categorical variables:
-- Using LabelEncoder() for transforming categorical features to numeric representation.
+- Using LabelEncoder() for transforming categorical features to numeric representation as well Ordinal Encoding for some of the ordered columns
 
 6.Handling Imbalanced Data:
 - Applying SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
